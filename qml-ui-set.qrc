@@ -5,5 +5,6 @@
         <file alias="HidingPanel.qml">ui/HidingPanel.qml</file>
         <file alias="AbortableBusyIndicator.qml">ui/AbortableBusyIndicator.qml</file>
         <file alias="CircularImageButton.qml">ui/CircularImageButton.qml</file>
+        <file alias="DetailItem.qml">ui/DetailItem.qml</file>
     </qresource>
 </RCC>
