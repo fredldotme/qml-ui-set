@@ -1,18 +1,21 @@
 import QtQuick 2.2
+import QtQuick.Controls 2.2
 
 Row {
     spacing: 8
     property alias label : detailLabel.text
+    property alias labelColor : detailLabel.color
     property alias value : detailValue.text
+    property alias valueColor : detailValue.color
     property real ratio : 0.5
 
-    Text {
+    Label {
         id: detailLabel
         font.bold: true
         width: parent.width * ratio
         horizontalAlignment: Text.AlignRight
     }
-    Text {
+    Label {
         id: detailValue
         width: (parent.width) - detailLabel.width
         wrapMode: Text.WrapAtWordBoundaryOrAnywhere
