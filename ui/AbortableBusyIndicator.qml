@@ -55,7 +55,7 @@ BusyIndicator {
 
         Image {
             id: abortButtonImage
-            source: "qrc:/icons/theme/actions/symbolic/window-close-symbolic.svg"
+            source: "qrc:/qml-ui-set-img/close.png"
             anchors.fill: parent
             enabled: false
             sourceSize.width: width

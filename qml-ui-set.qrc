@@ -7,4 +7,7 @@
         <file alias="CircularImageButton.qml">ui/CircularImageButton.qml</file>
         <file alias="DetailItem.qml">ui/DetailItem.qml</file>
     </qresource>
+    <qresource prefix="/qml-ui-set-img">
+        <file alias="close.png">img/close.png</file>
+    </qresource>
 </RCC>
